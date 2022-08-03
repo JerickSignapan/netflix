@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Jsdesign.css">
+    <title>ClickMe</title>
+</head>
+<body>
+    <h2>Click your favorate anime character</h2>
+
+    <p id="Anime"></p>
+    <div class="DesignTxt">
+    <button onclick="PrintGon()"> <h3> Click Me I am Gon </h3></button>
+    <button onclick="PrintEyeshield()"> <h3> Click Me I am Eyeshield </h3></button>
+    <button onclick="Printnaruto()"> <h3>Click Me I am naruto</h3></button>
+    <button onclick="PrintKillua()"> <h3>Click Me I am Killua</h3></button>
+    </div>
+    <script>
+    function PrintGon(){
+        document.getElementById("Anime").innerHTML = " <img src='https://static3.cbrimages.com/wordpress/wp-content/uploads/2021/01/Hunter-X-Hunter-Gon.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5'>";
+    }
+    function PrintEyeshield(){
+        document.getElementById("Anime").innerHTML = " <img src='https://static2.cbrimages.com/wordpress/wp-content/uploads/2020/02/Eyeshield-21.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5'>";
+    }
+    function Printnaruto(){
+        document.getElementById("Anime").innerHTML = " <img src='https://www.dualshockers.com/static/uploads/2021/09/Boruto-Episode-Pays-Homage-To-Naruto-and-Sasukes-Legendary-Fight.jpg'>";
+    }
+    function PrintKillua(){
+        document.getElementById("Anime").innerHTML = " <img src='https://www.teahub.io/photos/full/161-1615833_hunter-x-hunter-killua-godspeed..png'>";
+    }
+    </script>
+</body>
+</html>
